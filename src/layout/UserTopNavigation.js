@@ -30,8 +30,8 @@ export default function TopNavigation() {
     return (
         <>
 
-            <div className= {mainSidebarOpen ? "ml-64 fixed w-full flex justify-between h-14 text-white z-10 bg-[#8B008B]" :
-            "fixed w-full h-14 flex justify-between text-white z-10 bg-[#8B008B]"}
+            <div className= {mainSidebarOpen ? "ml-64 fixed w-full flex justify-between h-14 text-white z-10 dark:bg-slate-700" :
+            "fixed w-full h-14 flex justify-between text-white z-10  dark:bg-slate-700"}
             >
 
 
