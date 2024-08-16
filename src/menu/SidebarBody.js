@@ -56,7 +56,7 @@ export default function SidebarBody() {
       {/* <div className="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
         <ul className="flex flex-col"> */}
 
-<div className={`${mainSidebarOpen ? 'w-64' : 'w-14'} fixed flex flex-col h-[70%]  left-0 
+<div className={`${mainSidebarOpen ? 'w-64' : 'w-14'} fixed flex flex-col   left-0 
       font-semibold  text-white transition-all duration-300  z-10 bg-sky-900 dark:bg-slate-900 `}>
       
           <ul className="flex flex-col">

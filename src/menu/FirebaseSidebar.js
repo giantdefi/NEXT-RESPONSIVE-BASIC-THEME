@@ -48,19 +48,39 @@ export default function FirebaseSidebar() {
     <>
 
 
-<div ref={outsideRef} style={{ zIndex: 46 }}
-        className={`flex flex-col min-h-screen  z-30 text-white  bg-[#051e34ff]
+{/* <div ref={outsideRef} style={{ zIndex: 46 }}
+        className={`flex flex-col min-h-screen  z-30 text-white  bg-sky-900 border-4 border-red-900
         fixed transition-all duration-300 ${mainSidebarOpen ? " w-64 " : "w-14 "} `}>
 
         <div className="h-[25%]  bg-slate-800">
           <SidebarTop />
         </div>
 
-        <div className="h-[70%] bg-slate-800 ">
+        <div className="h-[50%] bg-slate-800 border-4 border-green-900">
           <SidebarBody />
         </div>
 
-        <div className="h-[5%] z-30 overflow-x-hidden bg-blue-700/20 dark:bg-slate-900 pt-1">
+        <div className="h-[5%] bg-slate-800 border-4 bg-white">
+        <SidebarFooter />
+        </div>
+
+      
+
+      </div> */}
+
+<div ref={outsideRef} style={{ zIndex: 46 }}
+        className={`flex flex-col  z-30 text-white h-screen 
+        fixed transition-all duration-300 ${mainSidebarOpen ? " w-64 " : "w-14 "} `}>
+
+        <div className="h-[6%] bg-[#051e34ff]">
+          <SidebarTop />
+        </div>
+
+        <div className="h-[89%] bg-slate-800 ">
+          <SidebarBody />
+        </div>
+
+        <div className="h-[5%] z-30 overflow-x-hidden bg-blue-900 pt-1">
 
           <SidebarFooter />
         </div>
