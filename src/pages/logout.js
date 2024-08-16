@@ -11,10 +11,7 @@ import { setLoaderBalance } from 'redux/reducers/LoaderReducer'
 import { resetErrors } from 'redux/reducers/ErrorReducer'
 import { resetForm } from 'redux/reducers/FormReducer'
 import { resetAffiliate } from 'redux/reducers/AffiliateReducer'
-import { resetHistory } from 'redux/reducers/HistoryReducer'
-import { resetMtree } from 'redux/reducers/MtreeReducer'
-import { resetFinance } from 'redux/reducers/FinanceReducer'
-import { setLogout, setToggleLogin } from 'redux/reducers/AuthReducer'
+import { setLogout} from 'redux/reducers/AuthReducer'
 //--------------------------------------
 
 export default function Home() {
@@ -42,11 +39,9 @@ export default function Home() {
 
         dispatch(resetAffiliate())
         dispatch(resetErrors())
-        dispatch(resetFinance())
-        dispatch(resetForm())
-        dispatch(resetHistory())
-       dispatch(resetMtree())
      
+        dispatch(resetForm())
+
         dispatch(setLogout()) // authReducer
         dispatch(setToggleLogin(true)) 
         dispatch(setModalLogin(true)) 

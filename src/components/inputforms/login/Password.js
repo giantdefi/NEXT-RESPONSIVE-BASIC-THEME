@@ -54,7 +54,7 @@ export default function Password() {
 
     <div>
     <div className="flex justify-between text-white">
-    <label  class="block text-sm font-medium text-gray-900 dark:text-white">Enter Password </label>
+    <label  className="block text-sm font-medium text-gray-900 dark:text-white">Enter Password </label>
     {!showPassword ?
                     <div onClick={togglePassword} className="flex justify-center items-center cursor-pointer text-gray-900">
                         <p className="text-sm"> Hide </p><p>   <i className="icofont-eye-blocked text-xl ml-2" /></p>
@@ -66,7 +66,7 @@ export default function Password() {
 
    
     </div>
-    <input  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
+    <input  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
     focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" 
      
     type ={!showPassword ? "password" : "text"}

@@ -9,7 +9,6 @@ import { setMainSidebarOpen, setDropdownOpen, setItemSelected } from 'redux/redu
 import {  setCloseModal, setModalMessage, setModalMenuDrawer } from 'redux/reducers/ModalReducer'
 import { setAllowSound } from 'redux/reducers/SettingReducer'
 import { setPlaySound } from 'redux/reducers/SoundReducer'
-import { setToggleLogin } from 'redux/reducers/AuthReducer'
 //-------------------------------------------------------
 
 export default function SidebarBody() {
@@ -19,7 +18,7 @@ export default function SidebarBody() {
   const router = useRouter()
   const { mainSidebarOpen, dropdownOpen, itemSelected } = useSelector((state) => state.MainmenuReducer)
   const { allowSound } = useSelector((state) => state.SettingReducer)
-  const { isLogin, toggleLogin } = useSelector((state) => state.AuthReducer)
+  const { isLogin } = useSelector((state) => state.AuthReducer)
   const { modalMenuDrawer } = useSelector((state) => state.ModalReducer)
 
   const toggleSound = () => {
@@ -57,11 +56,6 @@ export default function SidebarBody() {
  
     if(!isLogin) {
         router.push('/')
-        if(toggleLogin){
-          dispatch(setToggleLogin(false))
-      }else{
-          dispatch(setToggleLogin(true))
-      }
       dispatch(setCloseModal(true))
     }else{
 

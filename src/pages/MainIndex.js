@@ -13,7 +13,6 @@ import { setSpinnerAtLogo } from 'redux/reducers/LoaderReducer'
 import { setbackURLs } from 'redux/reducers/MainmenuReducer'
 import { setMainMenuItem } from 'redux/reducers/MainmenuReducer'
 import { setBordingOnMainHeader, setShoWConnectWallet } from 'redux/reducers/SettingReducer'
-import {setToggleLogin } from 'redux/reducers/AuthReducer'
 //--------------------------------------
 
 export default function Home() {
@@ -34,9 +33,6 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const handleToggle = () => {
-    dispatch(setToggleLogin(false))
-}
 
 return (
   <>
