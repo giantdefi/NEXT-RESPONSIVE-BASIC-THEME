@@ -103,13 +103,13 @@ export default function MainHeader() {
                             </li>
 
                             <li className="mr-3 uppercase font-semibold">
-                                <Link href="/"><a className="inline-block py-2 px-4 text-white no-underline"
+                                <Link href="/about"><a className="inline-block py-2 px-4 text-white no-underline"
                                     // style={{ color: mainMenuItem === 3 ? 'orange' : 'white' }}
                                 >About</a></Link>
                             </li>
 
                             <li className="mr-3 uppercase font-semibold">
-                                <Link href="/"><a className="inline-block py-2 px-4 text-white no-underline"
+                                <Link href="/contact"><a className="inline-block py-2 px-4 text-white no-underline"
                                     // style={{ color: mainMenuItem === 3 ? 'orange' : 'white' }}
                                 >Contact</a></Link>
                             </li>
