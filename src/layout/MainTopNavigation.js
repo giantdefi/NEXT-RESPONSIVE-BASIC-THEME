@@ -116,25 +116,15 @@ export default function MainHeader() {
 
 
                             <li className="mr-3 flex centered">
-                             {!isLogin? 
-                                <button onClick={handleToggle}
-                                    className="flex justify-center  text-sm text-white  rounded-full   
-                  hover:bg-blue-500 transition ease-in-out duration-300 py-1 border-4 border-gray-400 text-xl px-4">
-                                  {showLogin ? 'LOGIN' : 'REGISTER'}  
-                                    </button>
-                                   
-                                    
-                                :
-                               <>
-                                                                               
+                                                                       
                                 <button onClick={()=>router.push('/users')}
                                 className="flex justify-center  text-sm text-white  rounded-full   
-                                hover:bg-blue-500 transition ease-in-out duration-300 py-1 border-4 border-gray-400 text-xl px-4">
+                                hover:bg-blue-500 transition ease-in-out duration-300 py-1 border-4 border-gray-400  px-4">
                                                 DASHBOARD</button>
-                               </>
+                              
                               
                                 
-                                }
+                              
 
                             </li>
                         </ul>

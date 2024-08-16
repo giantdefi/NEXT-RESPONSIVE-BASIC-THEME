@@ -65,6 +65,8 @@ return (
       <div className="w-full mt-20 mx-auto mb-10 text-white">
 
  <h1>MOBILE INDEX</h1>
+ <p>You can put your code here apart from large device content</p>
+ <p>The file to edit is MobileIndex.js</p>
 
  
 
