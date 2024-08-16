@@ -61,45 +61,45 @@ return (
     </section>
 
  
-    <section className="py-20 bg-gray-100 dark:bg-gray-900">
+    <section className="py-20 bg-white">
         <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-600">Who We Are</h2>
-            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto dark:text-white">
+            <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
                 We are a dedicated team of web developers and designers who are passionate about creating innovative and user-friendly websites. With years of experience in the industry, we strive to deliver high-quality digital solutions that help businesses grow and succeed online.
             </p>
         </div>
     </section>
 
 
-    <section className="py-20 bg-gray-100 dark:bg-gray-900">
+    <section className="py-20 bg-gray-100">
         <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-600">Meet the Team</h2>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
                
-                <div className="border rounded-lg shadow-lg overflow-hidden bg-white dark:bg-gray-900">
+                <div className="border rounded-lg shadow-lg overflow-hidden bg-white">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOUwBywKCoBI0ipS4Et5lN9d5ePatj-EQYA&s" alt="Project 2" className="w-full h-48 object-cover"/>
                     <div className="p-6">
                         <h3 className="text-xl font-semibold mb-2">John Doe</h3>
-                        <p className="text-lg text-gray-700 dark:text-white">Lead Developer</p>
+                        <p className="text-lg text-gray-700">Lead Developer</p>
                     </div>
                 </div>
 
                
-                <div className="border rounded-lg shadow-lg overflow-hidden bg-white dark:bg-gray-900">
+                <div className="border rounded-lg shadow-lg overflow-hidden bg-white">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOUwBywKCoBI0ipS4Et5lN9d5ePatj-EQYA&s" alt="Project 2" className="w-full h-48 object-cover"/>
                     <div className="p-6">
                         <h3 className="text-xl font-semibold mb-2">Jane Smith</h3>
-                        <p className="text-lg text-gray-700 dark:text-white">UI/UX Designer</p>
+                        <p className="text-lg text-gray-700">UI/UX Designer</p>
                     </div>
                 </div>
 
               
-                <div className="border rounded-lg shadow-lg overflow-hidden bg-white dark:bg-gray-900">
+                <div className="border rounded-lg shadow-lg overflow-hidden bg-white">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOUwBywKCoBI0ipS4Et5lN9d5ePatj-EQYA&s" alt="Project 2" className="w-full h-48 object-cover"/>
                     <div className="p-6">
                         <h3 className="text-xl font-semibold mb-2">Michael Brown</h3>
-                        <p className="text-lg text-gray-700 dark:text-white">Project Manager</p>
+                        <p className="text-lg text-gray-700">Project Manager</p>
                     </div>
                 </div>
 
@@ -110,27 +110,27 @@ return (
     </section>
 
    
-    <section className="py-20 bg-gray-100 dark:bg-gray-900">
+    <section className="py-20 bg-white">
         <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold text-blue-600">Our Values</h2>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
                
-                <div className="p-6 border rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                <div className="p-6 border rounded-lg shadow-lg bg-gray-100">
                     <h3 className="text-2xl font-semibold mb-2">Innovation</h3>
-                    <p className="text-lg text-gray-700 dark:text-gray-100">We constantly seek out new technologies and methodologies to deliver cutting-edge solutions.</p>
+                    <p className="text-lg text-gray-700">We constantly seek out new technologies and methodologies to deliver cutting-edge solutions.</p>
                 </div>
 
             
-                <div className="p-6 border rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                <div className="p-6 border rounded-lg shadow-lg bg-gray-100">
                     <h3 className="text-2xl font-semibold mb-2">Integrity</h3>
-                    <p className="text-lg text-gray-700 dark:text-gray-100">We operate with honesty and transparency in all our dealings, ensuring trust with our clients.</p>
+                    <p className="text-lg text-gray-700">We operate with honesty and transparency in all our dealings, ensuring trust with our clients.</p>
                 </div>
 
               
-                <div className="p-6 border rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                <div className="p-6 border rounded-lg shadow-lg bg-gray-100">
                     <h3 className="text-2xl font-semibold mb-2">Excellence</h3>
-                    <p className="text-lg text-gray-700 dark:text-gray-100">Our goal is to exceed client expectations with superior quality in everything we do.</p>
+                    <p className="text-lg text-gray-700">Our goal is to exceed client expectations with superior quality in everything we do.</p>
                 </div>
 
             </div>

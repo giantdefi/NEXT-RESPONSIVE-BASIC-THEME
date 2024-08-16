@@ -60,7 +60,7 @@ export default function FirebaseSidebar() {
           <SidebarBody />
         </div>
 
-        <div className="h-[5%] z-30 overflow-x-hidden bg-blue-900 pt-1">
+        <div className="h-[5%] z-30 overflow-x-hidden bg-blue-700/20 dark:bg-slate-900 pt-1">
 
           <SidebarFooter />
         </div>

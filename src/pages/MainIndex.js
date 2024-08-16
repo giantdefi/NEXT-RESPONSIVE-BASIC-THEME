@@ -42,7 +42,10 @@ return (
       <meta name="description" content={desc} />
     </Head>
 
-    <div>
+   
+
+    <body className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+
 
       <section className="relative min-h-screen bg-gray-400 dark:bg-[#111] animated fadeIn">
 
@@ -56,109 +59,48 @@ return (
         <div className="container mx-auto text-center ">
             <h1 className="text-5xl font-bold">Building Modern and Responsive Websites</h1>
             <p className="mt-4 text-2xl">Turning your ideas into reality with clean code and stunning designs.</p>
-            <a href="#contact" className="mt-8 inline-block bg-yellow-500 text-white py-3 px-8 rounded-full text-lg font-semibold">Hire Me</a>
+           
         </div>
     </section>
 
-    <section id="portfolio" className="py-20 bg-white">
-        <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-center text-blue-600">Portfolio</h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-
-               
-                <div className="border rounded-lg shadow-lg overflow-hidden">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOUwBywKCoBI0ipS4Et5lN9d5ePatj-EQYA&s" alt="Project 2" className="w-full h-48 object-cover"/>
-
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Project One</h3>
-                        <p className="text-lg text-gray-700 mb-4">A responsive e-commerce website built with React and Tailwind CSS.</p>
-                    </div>
-                </div>
-
-            
-                <div className="border rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOUwBywKCoBI0ipS4Et5lN9d5ePatj-EQYA&s" alt="Project 2" className="w-full h-48 object-cover"/>
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Project Two</h3>
-                        <p className="text-lg text-gray-700 mb-4">A sleek portfolio website designed for a photographer, using HTML, CSS, and JavaScript.</p>
-                    </div>
-                </div>
-
-
-                
-                <div className="border rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OuxhwM7--aOgZqbK-YG2YORRE_hxTTDB-rIRykijgnXVlWIafPi-EqU0roMjDujenEM&usqp=CAU" alt="Project 3" className="w-full h-48 object-cover"/>
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Project Three</h3>
-                        <p className="text-lg text-gray-700 mb-4">A dynamic blog platform built with Node.js and Tailwind CSS.</p>
-                    </div>
-                </div>
-
-             
-
-            </div>
-        </div>
-    </section>
+    <section className="bg-blue-600 dark:bg-blue-800 text-white py-20 flex flex-col items-center justify-center">
+    <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I{"'"}m Randi</h1>
+    <p className="text-xl md:text-2xl mb-8">I create beautiful and functional websites</p>
+    <a href="#contact" className="bg-white text-blue-600 dark:bg-blue-700 dark:text-white py-2 px-4 rounded-lg text-lg font-semibold hover:bg-gray-100 dark:hover:bg-blue-600 transition duration-300">Get in Touch</a>
+  
+  </section>
 
   
-    <section id="services" className="py-20 bg-gray-100">
-        <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold text-blue-600">Services</h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
-              
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-semibold mb-2">Web Development</h3>
-                    <p className="text-lg text-gray-700">Custom website development using the latest technologies to ensure your site is fast, secure, and responsive.</p>
-                </div>
-
-                
+  <section id="about" className="py-16 px-4 bg-gray-100 dark:bg-gray-700">
+    <div className="container mx-auto">
+      <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
+      <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+        I{"'"}m a passionate web developer with experience in creating modern and responsive websites. My expertise includes HTML, CSS, JavaScript, and various frameworks and libraries. I love bringing ideas to life and solving problems through code.
+      </p>
+    </div>
+  </section>
 
 
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-semibold mb-2">UI/UX Design</h3>
-                    <p className="text-lg text-gray-700">Creating user-friendly interfaces that provide an intuitive and enjoyable user experience.</p>
-                </div>
-
-                
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-semibold mb-2">SEO Optimization</h3>
-                    <p className="text-lg text-gray-700">Optimizing your website to improve its visibility on search engines and attract more visitors.</p>
-                </div>
-
-            </div>
+  <section id="skills" className="bg-gray-200 dark:bg-gray-800 py-16 px-4">
+    <div className="container mx-auto">
+      <h2 className="text-3xl font-bold text-center mb-8">My Skills</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, React, NextJs, Tailwind CSS</p>
         </div>
-    </section>
-
-   
-    <section id="testimonials" className="py-20 bg-white text-center">
-        <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-blue-600">Testimonials</h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-
-                
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <p className="text-lg italic">John was amazing to work with. He delivered the project on time and exceeded my expectations!</p>
-                    <p className="mt-4 font-semibold">- Client A</p>
-                </div>
-
-              
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <p className="text-lg italic">The website John developed for my business has been fantastic. Ive seen a significant increase in traffic and sales.</p>
-                    <p className="mt-4 font-semibold">- Client B</p>
-                </div>
-
-               
-                <div className="p-6 border rounded-lg shadow-lg">
-                    <p className="text-lg italic">Highly professional and knowledgeable. I would highly recommend John for any web development project.</p>
-                    <p className="mt-4 font-semibold">- Client C</p>
-                </div>
-
-            </div>
+        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
+          <p>Node.js, Express, MongoDB, REST APIs</p>
         </div>
-    </section>
-
-   
+        <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
+          <h3 className="text-xl font-semibold mb-2">Tools & Platforms</h3>
+          <p>Git, GitHub, Netlify, Vercel</p>
+        </div>
+      </div>
+    </div>
+  </section>
    
 
        
@@ -171,7 +113,9 @@ return (
 
 
       </section>
-    </div>
+    
+
+    </body>
 
   </>
 )

@@ -57,7 +57,7 @@ export default function SidebarBody() {
         <ul className="flex flex-col"> */}
 
 <div className={`${mainSidebarOpen ? 'w-64' : 'w-14'} fixed flex flex-col h-[70%]  left-0 
-      font-semibold  text-white transition-all duration-300  z-10 bg-[#1d3030] `}>
+      font-semibold  text-white transition-all duration-300  z-10 bg-sky-900 dark:bg-slate-900 `}>
       
           <ul className="flex flex-col">
 
@@ -109,7 +109,7 @@ export default function SidebarBody() {
             </a>
             </Link>
 
-            <ul className={mainSidebarOpen && dropdownOpen === 1 ? "d-block animated fadeIn bg-gray-800 py-2 pb-6" : "hidden"}>
+            <ul className={mainSidebarOpen && dropdownOpen === 1 ? "d-block animated fadeIn bg-blue-700/20 dark:bg-slate-900 py-2 pb-6" : "hidden"}>
 
               <li className="cursor-pointer hover:text-green-300">
                 <a onClick={()=>router.push('/users/m-tree')} className={` flex flex-row items-center h-10  pl-6 
@@ -169,7 +169,7 @@ export default function SidebarBody() {
             </a>
             </Link>
 
-            <ul className={mainSidebarOpen && dropdownOpen === 2 ? "d-block animated fadeIn bg-gray-800 py-2 pb-6" : "hidden"}>
+            <ul className={mainSidebarOpen && dropdownOpen === 2 ? "d-block animated fadeIn bg-blue-700/20 dark:bg-slate-900 py-2 pb-6" : "hidden"}>
             
            
               <li className="cursor-pointer hover:text-green-300">
@@ -207,7 +207,7 @@ export default function SidebarBody() {
             </a>
             </Link>
 
-            <ul className={mainSidebarOpen && dropdownOpen === 3 ? "d-block animated fadeIn bg-gray-800 py-2 pb-6" : "hidden"}>
+            <ul className={mainSidebarOpen && dropdownOpen === 3 ? "d-block animated fadeIn bg-blue-700/20 dark:bg-slate-900 py-2 pb-6" : "hidden"}>
             
             <li className="cursor-pointer hover:text-green-300">
                 <a onClick={()=>router.push('/users/history-referral-bonus')} className={` flex flex-row items-center h-10  pl-6 
@@ -263,7 +263,7 @@ export default function SidebarBody() {
             </a>
             </Link>
 
-            <ul className={mainSidebarOpen && dropdownOpen === 5 ? "d-block animated fadeIn bg-gray-800 py-2 pb-6" : "hidden"}>
+            <ul className={mainSidebarOpen && dropdownOpen === 5 ? "d-block animated fadeIn bg-blue-700/20 dark:bg-slate-900 py-2 pb-6" : "hidden"}>
             
             <li className="cursor-pointer hover:text-green-300">
                 <a onClick={()=>router.push('/users/history-send-poins')} className={` flex flex-row items-center h-10  pl-6 
@@ -319,7 +319,7 @@ export default function SidebarBody() {
             </a>
             </Link>
 
-            <ul className={mainSidebarOpen && dropdownOpen === 6 ? "d-block animated fadeIn bg-gray-800 py-2 pb-6" : "hidden"}>
+            <ul className={mainSidebarOpen && dropdownOpen === 6 ? "d-block animated fadeIn bg-blue-700/20 dark:bg-slate-900 py-2 pb-6" : "hidden"}>
 {/* 
             <li className="cursor-pointer hover:text-green-300">
                 <a onClick={()=>router.push('/users/profile')} className={` flex flex-row items-center h-10  pl-6 

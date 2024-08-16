@@ -36,8 +36,8 @@ export default function SidebarTop() {
   return (
     <>
 
-<div className="flex justify-between ">
-      <div className=" h-12 justify-start flex flex-row  pl-5">
+<div className="flex justify-between bg-sky-800 dark:bg-slate-900">
+      <div className=" h-12 justify-start flex flex-row  pl-5 ">
         <button onClick={toggleSidebar} className={` outline-none hover:outline-hidden transition duration-150 ${mainSidebarOpen ? '' : '-rotate-90'} `}>
           <svg width="20px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
@@ -46,7 +46,7 @@ export default function SidebarTop() {
 
       </div>
 
-      <div className="flex h-14 centered sm:justify-center md:justify-start  mx-auto sm:mx-0 
+      <div className="flex h-14 centered sm:justify-center md:justify-start  mx-auto sm:mx-0 bg-sky-900 dark:bg-slate-900
                   w-full md:w-80 ">
 
                      
