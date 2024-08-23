@@ -44,10 +44,10 @@ return (
 
     <div>
 
-      <section className="relative min-h-screen bg-gray-400 dark:bg-[#111] animated fadeIn">
+      <section className="relative min-h-screen bg-gray-400 dark:bg-[#111] animated fadeIn mt-10">
 
   
-        <div className="_gradient_purple/90 w-full h-[600px] bg-cover bg-fixedAA pt-[50px] "
+        <div className="_gradient_purple/90 w-full h-[600px] bg-cover bg-fixedAA "
           // style={{ backgroundImage: 'url(/assets/img/mainbg.webp)' }}
         >
        

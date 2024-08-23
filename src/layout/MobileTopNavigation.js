@@ -97,9 +97,9 @@ export default function TopNavigation() {
     
     </a>
 
-    <a onClick={()=>router.push('/')} className="cursor-pointer  flex centered  w-[250px] mt-2  mr-6">
-    {/* <img src="/assets/logo-header.webp" className=" animated fadeInDown w-3/2" alt="logo" />  */}
-    <h3 className="text-white">HEADER LOGO</h3>
+    <a onClick={()=>router.push('/')} className="cursor-pointer  flex centered  w-[200px]  mr-6">
+    <img src="/assets/header-logo1.png" className=" animated fadeInDown w-3/2" alt="logo" /> 
+    {/* <h3 className="text-white">HEADER LOGO</h3> */}
     </a>
 
     <div className="rounded-full w-[60px] h-[60px]  flex flex-col centered items-center ">
@@ -134,28 +134,28 @@ export default function TopNavigation() {
 </div>
 </div>
 
-<ul className="list-reset flex justify-between flex-1 md:flex-none items-center bg-red-900 w-[448px] text-white fixed">
+<ul className="list-reset flex justify-around flex-1 md:flex-none items-center bg-red-900 w-[448px] text-white fixed">
 
-<li className="mr-3 uppercase md:font-semibold">
-        <Link href="/"><a className="inline-block py-2 px-4  dark:text-white no-underline"
+<li className="mr-3  md:font-semibold">
+        <Link href="/"><a className="inline-block py-2 px-4  dark:text-white"
          
         >Home</a></Link>
     </li>
 
-    <li className="mr-3 uppercase md:font-semibold">
-        <button onClick={()=>router.push('/')}><p className="inline-block py-2 px-4  dark:text-white no-underline"
+    {/* <li className="mr-3  md:font-semibold">
+        <button onClick={()=>router.push('/')}><p className="inline-block py-2 px-4  dark:text-white"
             // style={{ color: mainMenuItem === 3 ? 'orange' : 'white' }}
         >Products</p></button>
-    </li>
+    </li> */}
 
-    <li className="mr-3 uppercase md:font-semibold">
-        <button onClick={()=>router.push('/')}><p className="inline-block py-2 px-4  dark:text-white no-underline"
+    <li className="mr-3  md:font-semibold">
+        <button onClick={()=>router.push('/about')}><p className="inline-block py-2 px-4  dark:text-white"
             // style={{ color: mainMenuItem === 3 ? 'orange' : 'white' }}
         >About</p></button>
     </li>
 
-    <li className="mr-3 uppercase font-semibold">
-        <button onClick={()=>router.push('/')}><p className="inline-block py-2 px-4  dark:text-white no-underline"
+    <li className="mr-3  font-semibold">
+        <button onClick={()=>router.push('/contact')}><p className="inline-block py-2 px-4  dark:text-white"
             // style={{ color: mainMenuItem === 3 ? 'orange' : 'white' }}
         >Contact</p></button>
     </li>
